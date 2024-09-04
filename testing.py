@@ -1,4 +1,7 @@
-from PIL import Image
+
+
+
+ PIL import Image
 import numpy as np
 import tensorflow as tf
 
@@ -16,6 +19,12 @@ def predict_photo(model, photo_path):
     print(f'Prediction array: {prediction}')
     predicted_class = np.argmax(prediction)
     return predicted_class
+
+
+
+
+
+
 
 
 
